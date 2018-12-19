@@ -8,7 +8,7 @@ print("""
 Testing Highlights Feed
 --------------------------------------------------------------------------------
 """)
-result = rt.read_highlights(start_date="yesterday")
+result = rt.read_highlights(end_date="yesterday")
 print(result['status_code'])
 payload = json.dumps(result['json'], indent=2)
 print(payload)
