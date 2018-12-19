@@ -1,5 +1,4 @@
 import os
-import json
 import datetime
 import requests
 
@@ -18,13 +17,3 @@ class RescueAPI():
         if source: payload['source'] = source
         r = requests.post(ENDPOINT, params=payload)
         return {'status_code': r.status_code,'json': r.json()}
-
-rt = RescueAPI()
-result = rt.post_highlight("Test")
-json = json.dumps(result['json'], indent=2)
-if result['status_code'] == 200:
-    print('Success!')
-    print(json)
-elif result['status_code'] == 400:
-    print('Fail!')
-    print(json)
