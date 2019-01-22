@@ -2,7 +2,8 @@ import os
 import datetime
 import requests
 
-class RescueAPI():
+
+class RescueAPI:
 
     def __init__(self, ):
         self.API_KEY = os.environ['RESCUETIME_API_KEY']
