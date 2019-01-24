@@ -44,6 +44,6 @@ class RescueAPI:
         payload['highlight_date'] = highlight_date if highlight_date else now
         payload['description'] = message
         if source:
-            self.payload['source'] = source
+            payload['source'] = source
         r = requests.post(ENDPOINT, params=payload)
         return {'status_code': r.status_code, 'json': r.json()}
