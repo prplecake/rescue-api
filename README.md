@@ -2,7 +2,7 @@
 
 * Documentation
 * * [Official][0]
-* * [Unofficial][2]
+* * [Unofficial][1]
 
 [0]: https://www.rescuetime.com/anapi/setup/documentation
 [1]: https://man.sr.ht/~mjorgensen/rescuetime-api-docs/
