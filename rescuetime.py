@@ -20,7 +20,8 @@ class RescueAPI:
         payload['format'] = format
         r = requests.get(_endpoint, params=payload)
         if format.lower() == "json":
-            return {'status_code': r.status_code, 'data': r.json()}
+            return {'status_code': r.status_code, 'format': format,
+                    'data': r.json()}
         if format.lower() == "csv":
             raise NotImplementedError
 
