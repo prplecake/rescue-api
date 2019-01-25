@@ -5,7 +5,7 @@ rt = rescuetime.RescueAPI()
 
 print("""
 --------------------------------------------------------------------------------
-Testing Analytic Data API
+Testing Analytic Data API - Format: JSON
 --------------------------------------------------------------------------------
 """)
 result = rt.get_analytic_data()
@@ -15,6 +15,16 @@ if result['format'] == 'json':
 if result['format'] == 'csv':
     payload = result['data']
 print(payload)
+
+print("""
+--------------------------------------------------------------------------------
+Testing Analytic Data API - Format: CSV
+--------------------------------------------------------------------------------
+""")
+try:
+    results = rt.get_analytic_data(format="csv")
+except NotImplementedError:
+    print("Status: OK\n\nCSV Support Not Yet Implemented.")
 
 print("""
 --------------------------------------------------------------------------------
