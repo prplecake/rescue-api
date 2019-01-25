@@ -5,6 +5,29 @@ rt = rescuetime.RescueAPI()
 
 print("""
 --------------------------------------------------------------------------------
+Testing Analytic Data API
+--------------------------------------------------------------------------------
+""")
+result = rt.get_analytic_data()
+print(result['status_code'])
+if result['format'] == 'json':
+    payload = json.dumps(result['data'], indent=2)
+if result['format'] == 'csv':
+    payload = result['data']
+print(payload)
+
+print("""
+--------------------------------------------------------------------------------
+Testing Daily Summary Feed
+--------------------------------------------------------------------------------
+""")
+result = rt.get_daily_summary_feed()
+print(result['status_code'])
+payload = json.dumps(result['json'], indent=2)
+print(payload)
+
+print("""
+--------------------------------------------------------------------------------
 Testing Alerts Feed
 --------------------------------------------------------------------------------
 """)
