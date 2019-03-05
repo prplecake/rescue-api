@@ -35,3 +35,9 @@ Versioning](https://semver.org/spec/v2.0.0.html).
   - Alerts Feed API!
   - Highlights Feed API!
   - Highlights Post API!
+
+[Unreleased]: https://git.sr.ht/~mjorgensen/rescue-api/
+[1.0.2]: https://git.sr.ht/~mjorgensen/rescue-api/refs/1.0.2
+[1.0.1]: https://git.sr.ht/~mjorgensen/rescue-api/refs/1.0.1
+[1.0.0]: https://git.sr.ht/~mjorgensen/rescue-api/refs/1.0.0
+[0.9.0]: https://git.sr.ht/~mjorgensen/rescue-api/refs/0.9.0
