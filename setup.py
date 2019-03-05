@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="rescue_api",
-    version="1.0.1",
+    version="1.0.2",
     author="Matthew Jorgensen",
     author_email="matthew@jrgnsn.net",
     description="A Python wrapper for the RescueTime API.",
