@@ -1,5 +1,5 @@
 import json
-import rescuetime
+from . import rescuetime
 
 rt = rescuetime.RescueAPI()
 
