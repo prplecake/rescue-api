@@ -17,7 +17,7 @@ Bugs, issues, and todos are found at the issue tracker:
 [~mjorgensen/rescue-api][todo].
 
 [official]: https://www.rescuetime.com/anapi/setup/documentation
-[unofficial]: https://man.sr.ht/~mjorgensen/rescuetime-api-docs/
+[unofficial]: https://man.sr.ht/~mjorgensen/rescue-api/
 [todo]: https://todo.sr.ht/%7Emjorgensen/rescue-api
 [pypi]: https://pypi.org/project/rescue-api/
 
