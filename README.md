@@ -20,4 +20,5 @@ Bugs, issues, and todos are found at the issue tracker:
 [unofficial]: https://man.sr.ht/~mjorgensen/rescue-api/
 [todo]: https://todo.sr.ht/%7Emjorgensen/rescue-api
 [pypi]: https://pypi.org/project/rescue-api/
+[list]: https://lists.sr.ht/~mjorgensen/public-inbox
 
