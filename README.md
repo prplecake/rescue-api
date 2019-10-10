@@ -6,8 +6,8 @@ This is a Python 3 implementation of the RescueTime API.
 
 You can find this project [on PyPi][pypi].
 
-This project's documentation [lives here][unofficial], and you should also familiarize
-yourself with the official [RescueTime API docs][official].
+This project's documentation [lives here][unofficial], and you should also
+familiarize yourself with the official [RescueTime API docs][official].
 
 Discussion and patches are welcome and should be directed to:
 [~mjorgensen/public-inbox@lists.sr.ht][list]. Please use `--send-prefix PATCH
