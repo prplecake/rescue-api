@@ -5,13 +5,13 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="rescue_api",
-    version="1.0.2",
+    version="1.0.3",
     author="Matthew Jorgensen",
     author_email="matthew@jrgnsn.net",
     description="A Python wrapper for the RescueTime API.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://git.sr.ht/~mjorgensen/spark",
+    url="https://git.sr.ht/~mjorgensen/rescue-api",
     packages=setuptools.find_packages(),
     install_requires=[
         "requests",
