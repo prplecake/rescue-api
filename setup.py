@@ -11,7 +11,7 @@ setuptools.setup(
     description="A Python wrapper for the RescueTime API.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://git.sr.ht/~mjorgensen/rescue-api",
+    url="https://github.com/prplecake/rescue-api",
     packages=setuptools.find_packages(),
     install_requires=[
         "requests",
